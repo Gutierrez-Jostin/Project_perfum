@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'tianguis'
 ]
+
+AUTH_USER_MODEL = 'tianguis.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
