@@ -8,6 +8,12 @@
     {% for product in products %}
     <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
+            {% if user.is_authenticated %}
+                <a href="{% url 'add_to_cart' product.id %}"
+                   class="btn btn-success mt-3">
+                   Agregar al carrito
+                </a>
+            {% endif %}
             <div class="card-body">
                 <h5>{{ product.name }}</h5>
                 <p>{{ product.description|truncatechars:80 }}</p>
