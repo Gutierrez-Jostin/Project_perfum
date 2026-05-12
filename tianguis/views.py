@@ -10,7 +10,7 @@ from .forms import ProductForm
 
 def home(request):
     products = Product.objects.select_related('owner').prefetch_related('categories').all()
-    return render(request, 'marketplace/home.html', {'products': products})
+    return render(request, 'tianguis/home.html', {'products': products})
 
 
 def register(request):
@@ -23,7 +23,7 @@ def register(request):
     else:
         form = RegisterForm()
 
-    return render(request, 'marketplace/register.html', {'form': form})
+    return render(request, 'tianguis/register.html', {'form': form})
 
 
 def login_view(request):
@@ -37,7 +37,7 @@ def login_view(request):
             login(request, user)
             return redirect('home')
 
-    return render(request, 'marketplace/login.html')
+    return render(request, 'tianguis/login.html')
 
 
 def logout_view(request):
@@ -55,7 +55,7 @@ def dashboard(request):
 
     products = Product.objects.filter(owner=request.user)
 
-    return render(request, 'store/dashboard.html', {
+    return render(request, 'tianguis/dashboard.html', {
         'products': products
     })
 
@@ -78,7 +78,7 @@ def product_create(request):
 
         return redirect('dashboard')
 
-    return render(request, 'store/product_form.html', {'form': form})
+    return render(request, 'tianguis/product_form.html', {'form': form})
 
 
 # =========================
@@ -97,7 +97,7 @@ def product_update(request, pk):
         form.save()
         return redirect('dashboard')
 
-    return render(request, 'store/product_form.html', {'form': form})
+    return render(request, 'tianguis/product_form.html', {'form': form})
 
 
 # =========================
@@ -114,4 +114,4 @@ def product_delete(request, pk):
         product.delete()
         return redirect('dashboard')
 
-    return render(request, 'store/product_confirm_delete.html', {'product': product})
+    return render(request, 'tianguis/product_confirm_delete.html', {'product': product})
