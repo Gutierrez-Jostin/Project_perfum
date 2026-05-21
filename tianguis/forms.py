@@ -15,7 +15,7 @@ class RegisterForm(UserCreationForm):
 class ProductForm(forms.ModelForm):
     class Meta:
         model = Product
-        fields = ['name', 'description', 'price', 'stock', 'categories']
+        fields = ['name', 'description', 'price', 'stock', 'categories', 'image']
         widgets = {
             'categories': forms.CheckboxSelectMultiple()
         }

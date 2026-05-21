@@ -10,10 +10,6 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a href="{% url 'cart_detail' %}"
-     class="btn btn-outline-light btn-sm me-2">
-     Carrito
-  </a>
   <div class="container">
     <a class="navbar-brand" href="/">Marketplace</a>
 
@@ -28,6 +24,10 @@
         <a href="{% url 'login' %}" class="btn btn-outline-light btn-sm me-2">Login</a>
         <a href="{% url 'register' %}" class="btn btn-primary btn-sm">Registro</a>
       {% endif %}
+      <a href="{% url 'cart_detail' %}"
+         class="btn btn-outline-light btn-sm me-2">
+         Carrito
+      </a>
     </div>
   </div>
 </nav>
@@ -35,6 +35,3 @@
 <div class="container mt-4">
     {% block content %}{% endblock %}
 </div>
-
-</body>
-</html>
