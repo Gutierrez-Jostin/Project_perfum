@@ -50,10 +50,10 @@ def home(request):
 
     return render(request, 'tianguis/home.html', {
         'page_obj': page_obj,
-        'categories': categories
+        'categories': categories,
+        "products":products
     })
-
-
+  
 def register(request):
     if request.method == 'POST':
         form = RegisterForm(request.POST)
@@ -109,7 +109,7 @@ def product_create(request):
     if not request.user.is_seller:
         return HttpResponseForbidden("Solo vendedores")
 
-    form = ProductForm(request.POST or None)
+    form = ProductForm(request.POST or None, request.FILES or None)
 
     if form.is_valid():
         product = form.save(commit=False)

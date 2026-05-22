@@ -31,6 +31,3 @@ class CartAdmin(admin.ModelAdmin):
     inlines = [CartItemInline]
 
 
-@admin.register(CartItem)
-class CartItemAdmin(admin.ModelAdmin):
-    list_display = ('cart', 'product', 'quantity')
