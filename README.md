@@ -1,5 +1,7 @@
 # SPRINT 1:
 Aquí es donde empieza nuestro proyecto dentro del VS CODE, donde en el archivo "settings.py" declaramos  la app dentro del proyecto:
+
+
 ![EVIDENCIA](https://github.com/Gutierrez-Jostin/Project_perfum/blob/d0ea7d6bf60a004ec4e72a7fbc9a8b534fe5890b/Captura%20de%20pantalla%202026-05-21%20180106.png)
 
 
