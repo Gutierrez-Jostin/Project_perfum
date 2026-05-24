@@ -77,7 +77,7 @@ Aquí ponemos cada parte de los templates que es donde va para la crear la base 
 
 # Esto fue hecho por Alexis Lopez, integrando los templates, el views y los urls del proyecto para que ya se pueda ingresar a la base de datos normal donde se vera la interfaz de nuestro proyecto
 
-## SPRINT 3
+# SPRINT 3
 
 Aqui hacemos una modificación en el ursl de la app agregando mas cosas sobre los productos y vendedores:
 
