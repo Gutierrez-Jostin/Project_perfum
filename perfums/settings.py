@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'project_perfum.urls'
+ROOT_URLCONF = 'perfums.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Project_perfum.wsgi.application'
+WSGI_APPLICATION = 'perfums.wsgi.application'
 
 
 # Database
