@@ -207,3 +207,21 @@ Al igual que en el archivo urls.py modificamos y conectamos en settings.py
 
 
 ![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193020.png)
+
+
+En el archivo dashboard.html modificamos el codigo para que salgan las imegenes
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/28a5220e7d61adfb6ae4307ece09aa24df3c394a/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193029.png)
+
+
+Ahora en la app dentro del archivo forms.py agregamos esto “image en ProductForm
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/28a5220e7d61adfb6ae4307ece09aa24df3c394a/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193037.png)
+
+
+Aqui dentro de models.py en producto agregamos lo de image
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/28a5220e7d61adfb6ae4307ece09aa24df3c394a/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193118.png)
