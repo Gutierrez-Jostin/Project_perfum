@@ -84,3 +84,126 @@ Aqui hacemos una modificación en el ursl de la app agregando mas cosas sobre lo
 
 ![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b432fa7dfbf96184a4a98b3dfd06182d96a20641/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190727.png)
 
+
+Aqui modificamos el archivo forms para agregarle lo de los productos
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190734.png)
+
+
+Aqui es donde creamos la lógica de negocios en views, donde el user vendedor podra crear productos, editarlos y eliminarlos
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190743.png)
+
+
+Despues creamos un templates llamado “deshboard.html” donde aremos un tipo amazon simple
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190752.png)
+
+
+Aqui crearemos un archivo llamado “product_form.html” dentro de los templates que es oara guardar un producto
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190800.png)
+
+
+Y este es para eliminar el producto, lo contrario al anterior templates, que ahora se llamara product_confirm_delete.html”
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190808.png)
+
+
+Aqui agregamos esto en navbar para autenticar que si sea vendedor el user
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190815.png)
+
+
+Esto fue hecho por Contreras Mendiola, mejorando la vista y la función de proyecto
+
+
+# SPRINT 4:
+
+Aqui hacemos una actualizacion al archivo “models.py” en cartItem
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20191909.png)
+
+
+Aqui actualizamos en el mismo archivo en diferente parte del codigo, en cart
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20191914.png)
+
+
+Ahora en el archivo “urls.py” agregamos esto que es para el carrito
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20191957.png)
+
+
+Ahora en “views.py” agregamos esto para la funcionalidad del carrito, como ver tus productos guardados, agregar nuevos o eliminar
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192005.png)
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192011.png)
+
+
+Ahora aqui creamos un nuevo archivo en templates llamado “cart_detail.html” y agregamos lo siguiente donde nos dice lo que tenemos que pagar etc
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192018.png)
+
+
+Ahora dentro de archivo “home.html” en templates agreganos esto de cada card
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192025.png)
+
+
+Aqui agregamos el carrito  navbar, dentro del archivo “base.html” dentro de los templates
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192030.png)
+
+
+# SPRINT 5
+
+
+Aqui agregamos una modificacion a views.py que es para poder buscar productos en específico y ir entre paginas para ver mas productos del catálogo
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192729.png)
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192736.png)
+
+
+Aqui hacemos un Home.html profesional para las busquedas por categoria
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192743.png)
+
+
+Aqui agregamos algo de paginacon en home.html
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20192750.png)
+
+
+# MODIFICACIONES EXTRAS BASADOS EN EL REPO DEL PROFESOR
+
+
+Aqui en el archivo settings.py estamos implementando cosas para poder agregar imagenes dentro de los productos, todo esto es en el proyecto
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193013.png)
+
+
+Al igual que en el archivo urls.py modificamos y conectamos en settings.py
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/c11ec2d336ffbc7db1d36c1bedb06c63445896bd/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193020.png)
