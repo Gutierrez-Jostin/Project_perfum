@@ -1,3 +1,27 @@
+Proyecto Final - Equipo 3
+
+      Integrantes:
+Lider: Jostin Ernesto Gutierrez Magaña
+Carrasco Perez Sofia Elena
+Jimenez Ramirez Axel Isaac
+Contreras Mendiola Christian Hersaith
+Serafin Lopez Alexis
+
+Profe: JOSE CHRISTIAN ROMERO HERNANDEZ
+Grupo: 4BV-PG
+Fecha: 29/05/2026
+
+
+# Introduccion 
+
+En esta documentación se enfoca en nuestro proyecto final, nuestra tienda de perfumes. En el proyecto nos guiamos con actividad/proyecto individual que nos dejó nuestro profesor.
+Cada parte del documento se estará hablando sobre los pasos de la creación, las modificaciones y las agregaciones que se ponen en los códigos o en la página.
+
+Este documento tendrá la información como la información que contiene nuestro repositorio de equipo. Todo este proyecto se realizó con casi todo el equipo, cada sprint lo documentó un integrante.  
+
+En este proyecto de venta de perfumes, todo resultó casi en su totalidad fácil, se muestra cada parte del código del programa, esto fue guiado por el sprint que el profesor ponía en su repositorio de marketplace, también algunos arreglos fueron sacados del proyecto guiado personal.
+
+
 # SPRINT 1:
 Aquí es donde empieza nuestro proyecto dentro del VS CODE, donde en el archivo "settings.py" declaramos  la app dentro del proyecto:
 
