@@ -51,7 +51,7 @@ def home(request):
     return render(request, 'tianguis/home.html', {
         'page_obj': page_obj,
         'categories': categories,
-        "products":products
+        
     })
 
 
