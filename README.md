@@ -265,7 +265,7 @@ Aqui dentro de models.py en producto agregamos lo de image
 Aquí vemos los cuatro modelos del admin, que son los Usuarios, los productos, las categorías y el carrito
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin1.png)
 
 
 
@@ -273,7 +273,7 @@ Users:
 Aquí estamos en usuarios, donde podemos ver si el usuario es vendedor o comprador, vendedor seria “IS SELLER”, esto es importante por que uno puede subir productos y el otro solo comprar
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin2.png)
 
 
 
@@ -281,10 +281,10 @@ Productos:
 Aqui en productos, es donde vemos cada uno de los productos que el usuario vendedor agregó para que salga en la página web
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin3.png)
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin4.png)
 
 
 
@@ -292,7 +292,7 @@ Categorías:
 Aqui en categorías es donde ponemos la categoría en la que pertenece cada producto, en nuestro caso, la marca de nuestro producto, ya que aunque son el mismo producto, son de diferente marca y asi podremos facilitar su búsqueda
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin5.png)
 
 
 
@@ -300,21 +300,21 @@ Carritos:
 Aquí en cart, vemos el carrito de cada user, donde podemos ver los productos que el usuario tiene en su carrito de compra
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin6.png)
 
 
 
 Carrito sin producto:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin7.png)
 
 
 
 Carrito con producto:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/admin8.png)
 
 
 
@@ -324,7 +324,7 @@ Carrito con producto:
 Esta es nuestra tienda virtual de perfumes, donde el cliente puede ver nuestros productos, buscar por marca(categoría) o por producto, y donde puede agregar al carrito etc, en este caso vemos desde la cuenta de vendedor, por eso la opción del Dashboard
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web1.png)
 
 
 
@@ -332,14 +332,14 @@ Búsquedas:
 Niños
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web2.png)
 
 
 
 VIctoria Secret:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web3.png)
 
 
 
@@ -351,7 +351,7 @@ Dashboard:
 Aqui estan todos los productos que tiene el vendedor
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web4.png)
 
 
 
@@ -359,23 +359,27 @@ Editar:
 Aqui seleccionamos un producto y ponemos editar sus datos, de ejemplo usaremos este:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web5.png)
 
 
 
 Aqui vemos los datos del producto:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web6.png)
 
 
 
 Y aqui lo vemos modificado:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web7.png)
 
 
+Y aqui vemos el cambio:
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web8.png)
 
 Donde modificamos las unidades disponibles y el precio
 
@@ -384,41 +388,41 @@ Donde modificamos las unidades disponibles y el precio
 Aqui subiremos (crearemos) un producto nuevo, en este caso de niños, dando en el boton de Nuevo producto:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web10.png)
 
 
 
 Y nos llevará a este lugar:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web11.png)
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web12.png)
 
 
 
 Agregando esta informacion:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web13.png)
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web14.png)
 
 
 
 Y podemos ver que aqui se agrego en productos:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web15.png)
 
 
 
 Ahora vamos a la pagina principal y vemos esto en la categoria donde lo pusimos, niños:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web16.png)
 
 
 
@@ -426,28 +430,28 @@ Eliminar:
 Aqui eliminaremos uno de los productos de que estan en la categoria de niños:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web17.png)
 
 
 
 Aqui confirmacion la eliminacion:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web18.png)
 
 
 
 Y aqui vemos que se elimino:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web19.png)
 
 
 
 Y aquí en búsquedas tampoco sale:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web20.png)
 
 
 
@@ -455,21 +459,27 @@ Carrito:
 Aquí en el carrito de compra podemos ver si tenemos productos o no y ver los precios y el total ya pagar, en este caso no tenemos nada:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web21.png)
+
+
+
+Aqui podemos ver nuestro carrito con un solo producto:
+
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web22.png)
+
 
 
 
 Y aquí con dos productos:
 
 
-![EVIDENCIAS]()
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web23.png)
 
 
 
 Y si modificamos una cantidad de un producto el precio sube, como vemos subi a dos cantidades en el producto de abajo y el precio aumento:
 
 
-![EVIDENCIAS]()
-
-
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web24.png)
 
