@@ -483,3 +483,8 @@ Y si modificamos una cantidad de un producto el precio sube, como vemos subi a d
 
 ![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b8a8cae76c159956b1d94d703f1d046d9b4f743f/tianguis/img-admin/web24.png)
 
+
+
+# MODELOS (CLAVE DEL PROYECTO)
+
+![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/6e9a50e32b75af3c87b59a38d74f99651c4a2ef4/tianguis/images/Tabla-nm.png)
