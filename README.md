@@ -1,10 +1,14 @@
 Proyecto Final - Equipo 3
 
       Integrantes:
-Lider: Jostin Ernesto Gutierrez Magaña
-Carrasco Perez Sofia Elena
-Jimenez Ramirez Axel Isaac
-Contreras Mendiola Christian Hersaith
+Lider: Jostin Ernesto Gutierrez Magaña,
+
+Carrazco Perez Sofia Elena,
+
+Jimenez Ramirez Axel Isaac,
+
+Contreras Mendiola Christian Hersaith,
+
 Serafin Lopez Alexis
 
 Profe: JOSE CHRISTIAN ROMERO HERNANDEZ
@@ -249,3 +253,160 @@ Aqui dentro de models.py en producto agregamos lo de image
 
 
 ![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/28a5220e7d61adfb6ae4307ece09aa24df3c394a/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193118.png)
+
+
+
+# Página web:
+
+Esta es nuestra tienda virtual de perfumes, donde el cliente puede ver nuestros productos, buscar por marca(categoría) o por producto, y donde puede agregar al carrito etc, en este caso vemos desde la cuenta de vendedor, por eso la opción del Dashboard
+
+
+![EVIDENCIAS]()
+
+
+
+Búsquedas: 
+Niños
+
+
+![EVIDENCIAS]()
+
+
+
+VIctoria Secret:
+
+
+![EVIDENCIAS]()
+
+
+
+Y así con todas las demás búsquedas
+
+
+
+Dashboard:
+Aqui estan todos los productos que tiene el vendedor
+
+
+![EVIDENCIAS]()
+
+
+
+Editar:
+Aqui seleccionamos un producto y ponemos editar sus datos, de ejemplo usaremos este:
+
+
+![EVIDENCIAS]()
+
+
+
+Aqui vemos los datos del producto:
+
+
+![EVIDENCIAS]()
+
+
+
+Y aqui lo vemos modificado:
+
+
+![EVIDENCIAS]()
+
+
+
+Donde modificamos las unidades disponibles y el precio
+
+
+
+Aqui subiremos (crearemos) un producto nuevo, en este caso de niños, dando en el boton de Nuevo producto:
+
+
+![EVIDENCIAS]()
+
+
+
+Y nos llevará a este lugar:
+
+
+![EVIDENCIAS]()
+
+
+![EVIDENCIAS]()
+
+
+
+Agregando esta informacion:
+
+
+![EVIDENCIAS]()
+
+
+![EVIDENCIAS]()
+
+
+
+Y podemos ver que aqui se agrego en productos:
+
+
+![EVIDENCIAS]()
+
+
+
+Ahora vamos a la pagina principal y vemos esto en la categoria donde lo pusimos, niños:
+
+
+![EVIDENCIAS]()
+
+
+
+Eliminar:
+Aqui eliminaremos uno de los productos de que estan en la categoria de niños:
+
+
+![EVIDENCIAS]()
+
+
+
+Aqui confirmacion la eliminacion:
+
+
+![EVIDENCIAS]()
+
+
+
+Y aqui vemos que se elimino:
+
+
+![EVIDENCIAS]()
+
+
+
+Y aquí en búsquedas tampoco sale:
+
+
+![EVIDENCIAS]()
+
+
+
+Carrito:
+Aquí en el carrito de compra podemos ver si tenemos productos o no y ver los precios y el total ya pagar, en este caso no tenemos nada:
+
+
+![EVIDENCIAS]()
+
+
+
+Y aquí con dos productos:
+
+
+![EVIDENCIAS]()
+
+
+
+Y si modificamos una cantidad de un producto el precio sube, como vemos subi a dos cantidades en el producto de abajo y el precio aumento:
+
+
+![EVIDENCIAS]()
+
+
+
