@@ -12,7 +12,9 @@ Contreras Mendiola Christian Hersaith,
 Serafin Lopez Alexis
 
 Profe: JOSE CHRISTIAN ROMERO HERNANDEZ
+
 Grupo: 4BV-PG
+
 Fecha: 29/05/2026
 
 
@@ -253,6 +255,64 @@ Aqui dentro de models.py en producto agregamos lo de image
 
 
 ![EVIDENCIAS](https://github.com/Gutierrez-Jostin/Project_perfum/blob/28a5220e7d61adfb6ae4307ece09aa24df3c394a/tianguis/images/Captura%20de%20pantalla%202026-05-23%20193118.png)
+
+
+# Admin
+
+Aquí vemos los cuatro modelos del admin, que son los Usuarios, los productos, las categorías y el carrito
+
+
+![EVIDENCIAS]()
+
+
+
+Users:
+Aquí estamos en usuarios, donde podemos ver si el usuario es vendedor o comprador, vendedor seria “IS SELLER”, esto es importante por que uno puede subir productos y el otro solo comprar
+
+
+![EVIDENCIAS]()
+
+
+
+Productos:
+Aqui en productos, es donde vemos cada uno de los productos que el usuario vendedor agregó para que salga en la página web
+
+
+![EVIDENCIAS]()
+
+
+![EVIDENCIAS]()
+
+
+
+Categorías:
+Aqui en categorías es donde ponemos la categoría en la que pertenece cada producto, en nuestro caso, la marca de nuestro producto, ya que aunque son el mismo producto, son de diferente marca y asi podremos facilitar su búsqueda
+
+
+![EVIDENCIAS]()
+
+
+
+Carritos:
+Aquí en cart, vemos el carrito de cada user, donde podemos ver los productos que el usuario tiene en su carrito de compra
+
+
+![EVIDENCIAS]()
+
+
+
+Carrito sin producto:
+
+
+![EVIDENCIAS]()
+
+
+
+Carrito con producto:
+
+
+![EVIDENCIAS]()
+
 
 
 
