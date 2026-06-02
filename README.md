@@ -1,15 +1,16 @@
 Proyecto Final - Equipo 3
 
-      Integrantes:
-Lider: Jostin Ernesto Gutierrez Magaña,
+Integrantes:
+Lider: Jostin Ernesto Gutierrez Magaña
 
-Carrazco Perez Sofia Elena,
+1-Carrazco Perez Sofia Elena
 
-Jimenez Ramirez Axel Isaac,
+2--Jimenez Ramirez Axel Isaac
 
-Contreras Mendiola Christian Hersaith,
+3-Contreras Mendiola Christian Hersaith
 
-Serafin Lopez Alexis
+4-Serafin Lopez Alexis
+
 
 Profe: JOSE CHRISTIAN ROMERO HERNANDEZ
 
