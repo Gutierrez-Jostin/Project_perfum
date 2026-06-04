@@ -35,7 +35,23 @@ En este proyecto de venta de perfumes, todo resultó casi en su totalidad fácil
 Aquí es donde empieza nuestro proyecto dentro del VS CODE, donde en el archivo "settings.py" declaramos  la app dentro del proyecto:
 
 
-![EVIDENCIA](https://github.com/Gutierrez-Jostin/Project_perfum/blob/d0ea7d6bf60a004ec4e72a7fbc9a8b534fe5890b/Captura%20de%20pantalla%202026-05-21%20180106.png)
+```python
+# =========================
+# 📦 Producto
+# =========================
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+
+    'tianguis'
+]
+
+AUTH_USER_MODEL = 'tianguis.User'
+```
 
 
 Como inicios de nuestro proyecto, en el archivo "models.py" donde ponemos todos los modelos de la app que tenemos hasta el momento:
