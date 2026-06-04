@@ -52,6 +52,7 @@ AUTH_USER_MODEL = 'tianguis.User'
 ```
 
 
+
 Como inicios de nuestro proyecto, en el archivo "models.py" donde ponemos todos los modelos de la app que tenemos hasta el momento:
 
 
@@ -157,6 +158,7 @@ class CartItem(models.Model):
 ```
 
 
+
 Aquí pusimos todo lo que va dentro del admin, donde podemos controlar todo, las categorias del negocio, los productos, lo que tengas en tu carrito, etc:
 
 
@@ -196,12 +198,16 @@ class CartAdmin(admin.ModelAdmin):
 
 ```
 
+
+
 Justo después de hacer migraciones y crear el superuser, ya podemos ingresar al admin donde podemos ver lo que guardamos en el paso anterior:
 
 
 ![EVIDENCI4](https://github.com/Gutierrez-Jostin/Project_perfum/blob/d0ea7d6bf60a004ec4e72a7fbc9a8b534fe5890b/Captura%20de%20pantalla%202026-05-21%20183053.png)
 
  Todo esto fue realizado por Sofia Carrazco, comenzando al proyecto y al administrados de este proyecto de ventas de perfumes.
+
+
 
 
 # SPRINT 2
@@ -220,6 +226,9 @@ urlpatterns = [
 
 ```
 
+
+
+
 Luego en la app creamos un archivo con el mismo nombre “urls.py” y ponemos lo siguiente donde ya tenemos conectado este urls al urls del proyecto y importamos desde views igual:
 
 ```Python
@@ -234,6 +243,7 @@ urlpatterns = [
 ]
 
 ```
+
 
 
 Ahora creamos otro archivo pero ahora llamado “forms.py” y pegamos lo siguiente que son los datos que nos pedirá a la hora de crear un user para ver si seremos clientes o vendedores:
@@ -252,6 +262,7 @@ class RegisterForm(UserCreationForm):
         model = User
         fields = ('username', 'email', 'is_seller', 'password1', 'password2')
 ```
+
 
 
 Aqui creamos el archivo “views.py” que es de como se vera nuestro lugar de ventas:
@@ -303,12 +314,16 @@ def logout_view(request):
 ```
 
 
+
+
 Ahora después del views, creamos los templates, por el momento son los 4 básicos, ”base.html”,  “home.html”,  “login.html” y “register.html”
 
 ![EVIDENCIA](https://github.com/Gutierrez-Jostin/Project_perfum/blob/b432fa7dfbf96184a4a98b3dfd06182d96a20641/tianguis/images/Captura%20de%20pantalla%202026-05-23%20190420.png)
 
 
 Aquí ponemos cada parte de los templates que es donde va para la crear la base de los mismos 
+
+
 
 # base.html
 
@@ -349,6 +364,7 @@ Aquí ponemos cada parte de los templates que es donde va para la crear la base 
 </html>
 
 ```
+
 
 # home.html
 
@@ -392,6 +408,7 @@ Aquí ponemos cada parte de los templates que es donde va para la crear la base 
 
 ```
 
+
 # login.html
 
 
@@ -414,6 +431,7 @@ Aquí ponemos cada parte de los templates que es donde va para la crear la base 
 
 ```
 
+
 # register.html
 
 
@@ -435,9 +453,15 @@ Aquí ponemos cada parte de los templates que es donde va para la crear la base 
 
 ```
 
+
+
  Esto fue hecho por Alexis Lopez, integrando los templates, el views y los urls del proyecto para que ya se pueda ingresar a la base de datos normal donde se vera la interfaz de nuestro proyecto
 
+
+
+
 # SPRINT 3
+
 
 Aqui hacemos una modificación en el ursl de la app agregando mas cosas sobre los productos y vendedores:
 
@@ -475,6 +499,8 @@ urlpatterns = [
 ```
 
 
+
+
 Aqui modificamos el archivo forms para agregarle lo de los productos
 
 
@@ -502,6 +528,8 @@ class ProductForm(forms.ModelForm):
         }
 
 ```
+
+
 
 
 Aqui es donde creamos la lógica de negocios en views, donde el user vendedor podra crear productos, editarlos y eliminarlos
@@ -588,6 +616,8 @@ def product_delete(request, pk):
 ```
 
 
+
+
 Despues creamos un templates llamado “deshboard.html” donde aremos un tipo amazon simple
 
 
@@ -633,6 +663,8 @@ Despues creamos un templates llamado “deshboard.html” donde aremos un tipo a
 ```
 
 
+
+
 Aqui crearemos un archivo llamado “product_form.html” dentro de los templates que es oara guardar un producto
 
 
@@ -653,6 +685,8 @@ Aqui crearemos un archivo llamado “product_form.html” dentro de los template
 {% endblock %}
 
 ```
+
+
 
 
 Y este es para eliminar el producto, lo contrario al anterior templates, que ahora se llamara "product_confirm_delete.html”
@@ -676,6 +710,8 @@ Y este es para eliminar el producto, lo contrario al anterior templates, que aho
 ```
 
 
+
+
 Aqui agregamos esto en navbar para autenticar que si sea vendedor el user
 
 
@@ -687,10 +723,15 @@ Aqui agregamos esto en navbar para autenticar que si sea vendedor el user
 ```
 
 
+
+
 Esto fue hecho por Contreras Mendiola, mejorando la vista y la función de proyecto
 
 
+
+
 # SPRINT 4:
+
 
 Aqui hacemos una actualizacion al archivo “models.py” en cartItem
 
@@ -707,6 +748,8 @@ Aqui hacemos una actualizacion al archivo “models.py” en cartItem
 ```
 
 
+
+
 Aqui actualizamos en el mismo archivo en diferente parte del codigo, en cart
 
 
@@ -717,6 +760,8 @@ Aqui actualizamos en el mismo archivo en diferente parte del codigo, en cart
         return sum(item.subtotal for item in self.cartitem_set.all())
 
 ```
+
+
 
 
 Ahora en el archivo “urls.py” agregamos esto que es para el carrito
@@ -730,6 +775,8 @@ Ahora en el archivo “urls.py” agregamos esto que es para el carrito
     path('cart/update/<uuid:item_id>/', views.update_cart_item, name='update_cart_item'),
 
 ```
+
+
 
 
 Ahora en “views.py” agregamos esto para la funcionalidad del carrito, como ver tus productos guardados, agregar nuevos o eliminar
@@ -816,6 +863,8 @@ def update_cart_item(request, item_id):
 ```
 
 
+
+
 Ahora aqui creamos un nuevo archivo en templates llamado “cart_detail.html” y agregamos lo siguiente donde nos dice lo que tenemos que pagar etc
 
 
@@ -899,6 +948,8 @@ Ahora aqui creamos un nuevo archivo en templates llamado “cart_detail.html” 
 ```
 
 
+
+
 Ahora dentro de archivo “home.html” en templates agreganos esto de cada card
 
 
@@ -913,6 +964,8 @@ Ahora dentro de archivo “home.html” en templates agreganos esto de cada card
 ```
 
 
+
+
 Aqui agregamos el carrito  navbar, dentro del archivo “base.html” dentro de los templates
 
 
@@ -923,6 +976,8 @@ Aqui agregamos el carrito  navbar, dentro del archivo “base.html” dentro de 
 </a>
 
 ```
+
+
 
 
 # SPRINT 5
@@ -985,6 +1040,7 @@ def home(request):
 
 
 
+
 Aqui hacemos un Home.html profesional para las busquedas por categoria
 
 
@@ -1021,6 +1077,8 @@ Aqui hacemos un Home.html profesional para las busquedas por categoria
 </form>
 
 ```
+
+
 
 
 Aqui agregamos algo de paginacion en home.html
@@ -1078,6 +1136,8 @@ Aqui agregamos algo de paginacion en home.html
 ```
 
 
+
+
 # MODIFICACIONES EXTRAS BASADOS EN EL REPO DEL PROFESOR
 
 
@@ -1091,6 +1151,8 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 ```
+
+
 
 
 Al igual que en el archivo urls.py modificamos y conectamos en settings.py
@@ -1108,6 +1170,8 @@ urlpatterns = [
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 ````
+
+
 
 
 En el archivo dashboard.html modificamos el codigo para que salgan las imegenes
@@ -1129,6 +1193,8 @@ En el archivo dashboard.html modificamos el codigo para que salgan las imegenes
 ```
 
 
+
+
 Ahora en la app dentro del archivo forms.py agregamos esto “image en ProductForm
 
 
@@ -1144,6 +1210,8 @@ class ProductForm(forms.ModelForm):
         }
 
 ```
+
+
 
 
 Aqui dentro de models.py en producto agregamos lo de image
@@ -1163,6 +1231,8 @@ class Product(models.Model):
     stock = models.PositiveIntegerField(default=0)
 
 ```
+
+
 
 
 # Admin
